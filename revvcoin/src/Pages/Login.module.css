@@ -1,0 +1,12 @@
+.login{
+    border-radius: 4px;
+    background-color: #0ebaba;
+    color: #fff;
+    box-shadow: none!important;
+    min-width: 94px;
+    min-height: 36px;
+    border: none;
+    margin: 12px;
+    height: 35px;
+    width: 120px;
+}
