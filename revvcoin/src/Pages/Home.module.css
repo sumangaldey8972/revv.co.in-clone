@@ -1,0 +1,9 @@
+.carouseldiv{
+    background-image: url("https://www.revv.co.in/assets/RentalImages/HomeScreen/heroCarousel/ST_BG_1.png");
+    width: 1519px;
+    height: 580px;
+    position: relative;
+    top: -510px ;
+    left: 0px;
+    background: transparent;
+}

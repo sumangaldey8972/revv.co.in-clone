@@ -1,0 +1,16 @@
+.container{
+    border: 1px solid black;
+        background-color: black;
+        width: 99.%;
+        height: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url('https://twilightautotint.com.au/wp-content/uploads/2020/08/Privacy-Glass-1024x563.jpg');
+        background-size:cover;
+}
+
+.hyundaiimg{
+    width: 332px;
+    height: 20px;
+}

@@ -30,7 +30,12 @@ const Login = () => {
 
   return (
     <>
-      <Text onClick={onOpen} fontSize="14px" fontWeight="semibold">
+      <Text
+        onClick={onOpen}
+        fontSize="14px"
+        fontWeight="semibold"
+        cursor="pointer"
+      >
         Login or SignUp
       </Text>
 
@@ -69,7 +74,7 @@ const Login = () => {
               </Center>
               <Center>
                 <span>
-                  <Text>Don't have a account yet ? </Text>
+                  <Text>Don't have a account yet ?</Text>
                 </span>
                 <Spacer />
                 <span>
