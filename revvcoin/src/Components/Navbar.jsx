@@ -6,9 +6,12 @@ import Login from "../Pages/Login";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <Flex bg="">
+    <Flex
+    mb='2'
+      boxShadow="rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;"
+    >
       <Spacer />
-      <Link to="/" >
+      <Link to="/">
         <Box pt="3">
           <Img src="https://www.revv.co.in/grapheneImages/newopen/logo.svg" />
           <Text className={style.logoPtag}>Sanitised.Safe</Text>

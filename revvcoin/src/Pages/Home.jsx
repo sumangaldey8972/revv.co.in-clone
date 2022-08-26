@@ -16,11 +16,9 @@ import CarouselComponents from "../Components/Carousel";
 import style from "./Home.module.css";
 
 import Footer from "../Components/Footer";
-import Navbar from "../Components/Navbar";
 const Home = () => {
   return (
     <div>
-      <Navbar/>
       <Container
         border="2px solid black"
         fontFamily="Poppins"
