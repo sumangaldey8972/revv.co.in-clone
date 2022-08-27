@@ -23,7 +23,10 @@ const Hyundai = () => {
           border="1px solid red"
           width="45rem"
           p="6"
+          mt='7'
           borderRadius="6"
+          position="relative"
+          top="8"
         >
           <Center mt="8">
             <Img

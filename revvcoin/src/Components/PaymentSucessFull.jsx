@@ -12,15 +12,17 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 const PaymentSucessFull = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
 
   setTimeout(() => {
     setIsLoading(true);
+  }, 4000);
+
+  setTimeout(() => {
+    onClose();
   }, 6000);
 
   return (
@@ -33,13 +35,15 @@ const PaymentSucessFull = () => {
           <ModalHeader>
             {" "}
             {isLoading ? (
-                <Text>Enjoy Your Ride..</Text>
-                ) : (
-                <Text>PLease wait while your transaction is complete..</Text>
+              <Text>Enjoy Your Ride..</Text>
+            ) : (
+              <Text>PLease wait while your transaction is complete..</Text>
             )}
           </ModalHeader>
           <ModalCloseButton />
-          <ModalBody>{isLoading ? <h2> Payment is Successfull </h2> : <Spinner />}</ModalBody>
+          <ModalBody>
+            {isLoading ? <h2> Payment is Successfull </h2> : <Spinner />}
+          </ModalBody>
         </ModalContent>
       </Modal>
     </>

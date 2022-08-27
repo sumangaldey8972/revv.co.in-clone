@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { PrivateRoute } from "../AppContext/PrivateRoute";
 import CarPayment from "./CarPayment";
 import Home from "./Home";
 import Hyundai from "./Hyundai";
