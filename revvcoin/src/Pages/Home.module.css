@@ -3,7 +3,9 @@
     width: 1519px;
     height: 580px;
     position: relative;
-    top: -510px ;
+    top: -410px ;
     left: 0px;
     background: transparent;
+    width: 40rem;
+    float: right;
 }

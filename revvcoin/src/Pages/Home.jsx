@@ -18,12 +18,16 @@ import style from "./Home.module.css";
 import Footer from "../Components/Footer";
 const Home = () => {
   return (
-    <div>
+    <>
       <Container
         border="2px solid black"
         fontFamily="Poppins"
         width="490px"
-        mt="4"
+        mt="10"
+        position="relative"
+        top="20"
+        left="-300"
+        p="6"
       >
         <Container width="430" height="420" mt="10" mb="10">
           {" "}
@@ -140,7 +144,7 @@ const Home = () => {
       <Box m="auto" bgColor="#f1f4f8" position="relative" top="-500">
         <Footer />
       </Box>
-    </div>
+    </>
   );
 };
 
